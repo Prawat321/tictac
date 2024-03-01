@@ -65,7 +65,7 @@ const Square = ({value , onSquareClick})=>{
         </div>
         
  </div>
-        <button onClick={()=>{setSquares(Array(9).fill(null))}}>reset</button>
+        <button onClick={()=>{setSquares(Array(9).fill(null))}}>start now</button>
        
         </>
     )
